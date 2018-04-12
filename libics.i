@@ -2,7 +2,7 @@
 %module libics
 %{
 #include "libics.h"
-#include "libics_intern.h"
+//#include "libics_intern.h"
 #include "libics_sensor.h"
 #include "libics_ll.h"
 #include "libics_test.h"
@@ -11,7 +11,7 @@
 %}
 
 %include "libics.h"
-%include "libics_intern.h"
+ //%include "libics_intern.h"
 %include "libics_sensor.h"
 %include "libics_ll.h"
 %include "libics_test.h"
