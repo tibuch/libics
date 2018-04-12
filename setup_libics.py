@@ -12,6 +12,6 @@ libics_module = Extension('_libics', sources=['libics_read.c',
 'libics_sensor.c',
 'libics_binary.c',
 'libics_gzip.c',
-                                              'libics.i'], libraries=['z'])
+'libics_preview.c', 'libics.i'], libraries=['z'])
 
 setup(name='libics', ext_modules=[libics_module], py_modules=["libics"])
